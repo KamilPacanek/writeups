@@ -4,7 +4,7 @@
 |:--    |:--|
 Type    |CTF / Forensics
 Name    | **Cyber Apocalypse 2021 / Key Mission**
-Started | 2021/04/23 06:30 PM
+Started | 2021/04/23
 URLs    | https://ctf.hackthebox.eu/ctf/82
 |       | https://ctftime.org/event/1304
 Author	| **Asentinn** / OkabeRintaro

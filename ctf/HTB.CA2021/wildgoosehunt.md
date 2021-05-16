@@ -4,7 +4,7 @@
 |:--    |:--|
 Type    |CTF / Web
 Name    | **Cyber Apocalypse 2021 / Wild Goose Hunt**
-Started | 2021/04/23 04:30 PM
+Started | 2021/04/23
 URLs    | https://ctf.hackthebox.eu/ctf/82
 |       | https://ctftime.org/event/1304
 Author	| **Asentinn** / OkabeRintaro

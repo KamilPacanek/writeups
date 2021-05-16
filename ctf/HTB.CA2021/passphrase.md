@@ -4,7 +4,7 @@
 |:--    |:--|
 Type    |CTF / Reversing
 Name    | **Cyber Apocalypse 2021 / Passphrase**
-Started | 2021/04/23 08:30 PM
+Started | 2021/04/23
 URLs    | https://ctf.hackthebox.eu/ctf/82
 |       | https://ctftime.org/event/1304
 Author  | **Asentinn** / OkabeRintaro

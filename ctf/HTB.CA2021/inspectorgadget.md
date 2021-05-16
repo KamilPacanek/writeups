@@ -4,7 +4,7 @@
 |:--    |:--|
 Type    |CTF / Web
 Name    | **Cyber Apocalypse 2021 / Inspector Gadget**
-Started | 2021/04/19 08:30 PM
+Started | 2021/04/19
 URLs    | https://ctf.hackthebox.eu/ctf/82
 |       | https://ctftime.org/event/1304
 Author	| **Asentinn** / OkabeRintaro
