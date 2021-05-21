@@ -4,3 +4,6 @@
 * [Key Mission](ctf/HTB.CA2021/keymission.md)
 * [Passphrase](ctf/HTB.CA2021/passphrase.md)
 * [Wild Goose Hunt](ctf/HTB.CA2021/wildgoosehunt.md)
+
+### Try Hack Me
+* [Year of the Jellyfish](thm/yotjf.md)
