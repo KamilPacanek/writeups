@@ -212,7 +212,7 @@ Ok let's enumerate all these websites.
 
 Navigating to `34.253.63.1` returns 302 Redirect to `https://robyns-petshop.thm/`. Of course, it is unavailable, I'm going to try it once again when I connect to the THM VPN (because of _thm_ TLD).
 
-> Here I can spoil a little, that connecting to the VPN won't help me much by itself. But it is required to bypass public IP limitations. Continue reading.
+> Here I can spoil a little, that connecting to the VPN won't help me much by itself. But it is required to bypass the ISP limitations. Continue reading.
 
 ```sh
 $ nmap -A 34.253.63.1 -p 80  
@@ -269,7 +269,7 @@ gobuster dir  -w /usr/wl/dirbuster-m.txt -u https://34.253.63.1/ --exclude-lengt
 
 ![](img/yotjf_timeout.png)
 
-What is happening is that public IP can be very delicate and won't accept too many requests per second from one IP. So I decided to live with it and run a `gobuster` in batches, modifying the wordlist manually between consecutive runs. I've added some delay and this is what I've got:
+What is happening is that ISP won't pass that many requests per second from one IP. So I decided to live with it and run a `gobuster` in batches, modifying the wordlist manually between consecutive runs. I've added some delay and this is what I've got:
 
 ```sh
 $ gobuster dir  -w /usr/wl/dirbuster-m-yojf.txt -u https://34.253.63.1/ --exclude-length 8962 --delay 2000ms -k
@@ -1212,7 +1212,7 @@ s =requests.get(url, headers=headers, verify=False)
 If you compare this and original version of the script you will find the following differences (apart from extracting the variables):
 
 ### File name
-File that is being uploaded is renamed to `*.gif.pHp`. In the first version of the machine (launched during the event) it can be `*.phtml`. Muri patched that later, so I could only get with the file that have that uppercased `pHp` extension.
+File that is being uploaded is renamed to `*.gif.pHp` to pass the checks.
 
 ### SSL verification skip
 Monitorr is accessed via HTTPS protocol and browser warns about the certificate. The only way to get past this is to set `verify` to `False`. You did see similar thing done to `curl` before - `curl` is using `-k` for skipping SSL verification.
