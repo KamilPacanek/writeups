@@ -7,3 +7,4 @@
 
 ### Try Hack Me
 * [Year of the Jellyfish](thm/yotjf.md)
+* [Pickle Rick](thm/pickerick.md)
