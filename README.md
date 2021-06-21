@@ -11,3 +11,6 @@
 
 ### Hack The Box: Starting Point
 1. [Archetype](htb/archetype.md)
+2. Oopsie
+3. Vaccine
+4. [Shield](htb/shield.md)
