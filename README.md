@@ -8,3 +8,6 @@
 ### Try Hack Me
 * [Year of the Jellyfish](thm/yotjf.md)
 * [Pickle Rick](thm/picklerick.md)
+
+### Hack The Box: Starting Point
+1. [Archetype](htb/archetype.md)
