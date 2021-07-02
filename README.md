@@ -1,3 +1,5 @@
+## 👉 Write-ups moved to https://github.com/CyberEthicalMe/blog-articles
+
 ### Cyber Apocalypse 2021 (Hack The Box + CryptoHack)
 * [CaaS](ctf/HTB.CA2021/caas.md)
 * [Inspector Gadget](ctf/HTB.CA2021/inspectorgadget.md)
